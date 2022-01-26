@@ -1,0 +1,30 @@
+@media (max-width: 991px){
+    .promo{
+        &__wrappers{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .header{
+            display: block;
+            &__logo{
+                display: block;
+                margin: 0 auto;
+            }
+            &__official{
+                display: block;
+                margin: 0 auto;
+            }
+            &__contacts{
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+    .advantage{
+        &__element{
+            display: block;
+        }
+    }
+}

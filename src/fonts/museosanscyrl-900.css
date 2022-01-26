@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'MuseoSansCyrl-900';
+	src: url('../fonts/museosanscyrl-900.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/museosanscyrl-900.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/museosanscyrl-900.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/museosanscyrl-900.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/museosanscyrl-900.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/museosanscyrl-900.svg#museosanscyrl-900') format('svg'); /* Chrome < 4, Legacy iOS */
+}
