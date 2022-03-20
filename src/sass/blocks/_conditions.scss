@@ -1,0 +1,103 @@
+.conditions{
+    padding: 66px 0 87px 0;
+    &__subtitle{
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 115px;
+        height: 27px;
+        background: #000000;
+        font-size: 11px;
+        line-height: 11px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+    }
+    &__title{
+        display: flex;
+        justify-content: center;
+        margin-top: 32px;
+    }
+    &__wrapper{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 528px);
+        grid-template-rows: repeat(auto-fit, 353px);
+        column-gap: 34px;
+        row-gap: 61px;
+        
+    }
+    &__items{
+        width: 528px;
+        span{
+            font-weight: 300;
+            font-size: 17px;
+            line-height: 24px;
+            color: #1CA8C3;
+        }
+        &-subtitle{
+            margin-top: 33px;
+            font-size: 22px;
+            line-height: 24px;
+            display: flex;
+            align-items: center;
+            color: #1CA8C3;
+        }
+        &-document{
+            margin-top: 61px;
+            font-size: 22px;
+            line-height: 24px;
+            display: flex;
+            align-items: center;
+            color: #FF5656;
+        }
+        &-descr{
+            margin-top: 20px;
+            font-weight: 300;
+            font-size: 17px;
+            line-height: 30px;
+            color: #222222;
+            
+            li{
+                margin-left: 32px;
+                position: relative;
+                list-style-type: none;
+                &::before{
+                    content: '';
+                    position: absolute;
+                    display: block;
+                    margin-left: -30px;
+                    margin-top: 4px;
+                    width: 21px;
+                    height: 20px;
+                    background: url('../icons/check_blue\ 8.png')
+                }
+
+            }
+        }
+        &-text{
+            width: 480px;
+            margin-top: 20px;
+            font-weight: 300;
+            font-size: 17px;
+            line-height: 30px;
+            color: #222222;
+            li{
+                margin-left: 32px;
+                position: relative;
+                list-style-type: none;
+                &::before{
+                    content: '';
+                    position: absolute;
+                    display: block;
+                    margin-left: -30px;
+                    margin-top: 4px;
+                    width: 21px;
+                    height: 20px;
+                    background: url('../icons/check_red\ 8.png')
+                }
+            }
+            
+        }
+    }
+}

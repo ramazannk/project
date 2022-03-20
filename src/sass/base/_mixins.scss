@@ -1,0 +1,17 @@
+@mixin beforepuls {
+    &::before{
+        content: '';
+        position: absolute;
+        display: block;
+        width: 14px;
+        height: 2px;
+        background-color: blue;
+    }
+    &::after{
+        content: '';
+        display: block;
+        height: 14px;
+        width: 2px;
+        background-color: blue;
+    }
+}

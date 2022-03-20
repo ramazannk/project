@@ -1,51 +1,86 @@
 .footer{
-    height: 630px;
-    position: relative;
-    &__info{
-        position: absolute;
-        top: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 460px;
-        height: 270px;
-        background: #C70101;
-        padding: 50px 54px 56px 54px;
-
+    &__divider{
+        width: 301px;
+        height: 7px;
+        margin: 12px auto 4.5px auto;
+        background: #1FBAD6;
     }
-    &__addr{
-        text-align: center;
-        margin-bottom: 36px;
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 20px;
-        color: #FFFFFF;
-    }
-    &__phone{
-        display: block;
-        text-align: center;
-        font-weight: bold;
-        font-size: 20px;
-        line-height: 20px;
-        color: #FFFFFF;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
     &__social{
         display: flex;
-        justify-content: center;
-        margin-top: 36px;
-    }
-    &__social-item{
-        display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
-        border-radius: 100%;
-        width: 53px;
-        height: 52px;
-        border: 2px solid #FFFFFF;
-        box-sizing: border-box;
-        margin: 0 15px;
-        &:hover{
-            box-shadow: 6px 6px 35px yellow;
-            border: none;
+        width: 156px;
+        &-round{
+            width: 35px;
+            height: 35px;
+            border-radius: 100%;
+            background: #070716;
+        }
+        img{
+            margin-top: 9px;
+            margin-left: 9px;
+        }
+    }
+    &__items{
+        margin-left: 179px;
+        width: 410px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &-menu{
+            margin-top: 15px;
+            width: 410px;
+            font-weight: 300;
+            font-size: 15px;
+            line-height: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-transform: uppercase;
+            color: #070716;
+        }
+        &-second{
+            width: 410px;
+            font-weight: 300;
+            font-size: 11px;
+            line-height:30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-transform: uppercase;
+            color: #999999;
+        }
+        &-langueges{
+            font-size: 11px;
+            line-height: 30px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            text-transform: uppercase;
+
+            color: #1FBAD6;
+        }
+
+    }
+    &__markets{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 296px;
+        height: 27px;
+        &-block{
+            background: #A9A9A9;
+            width: 95px;
+            height: 27px;
+            img{
+                width: 100%;
+                height: 100%;
+            }
         }
     }
 }

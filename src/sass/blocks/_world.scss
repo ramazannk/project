@@ -1,0 +1,35 @@
+.world{
+    padding: 0 0 21px 0;
+    height: 717px;
+    background: #080816;
+    &__img{
+        padding-top: 46px;        
+        height: 717px;
+        bottom: 0;
+        background: url('../../img/world_bg.jpg') no-repeat;
+    }
+    &__subtitle{
+        margin: 0 auto 26px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 76px;
+        height: 24px;
+        background: #FFFFFF;
+        font-size: 11px;
+        line-height: 11px;
+        text-transform: uppercase;
+        color: #070716;
+    }
+    &__descr{
+        text-align: center;
+        color: #fff;
+    }
+    &__link{
+        display: block;
+        margin: 480px auto 21px auto;
+        width: 223px;
+        height: 68px;
+        bottom: 21px;
+    }
+}

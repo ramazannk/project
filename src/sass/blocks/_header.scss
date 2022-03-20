@@ -1,36 +1,81 @@
 .header{
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    &__logo{
-        width: 250px;
-        img{
-            width: 100%;
+    nav{
+        position: fixed;
+        width: 100%;
+        height: 50px;
+        background: #212121;
+        z-index: 1;
+    }
+    &__menu{
+        display: flex;
+        justify-content: space-between;
+        padding: 16px 71px;
+        li{
+            list-style-type: none;
+        }
+        &-link{
+            font-weight: 300;
+            font-size: 15px;
+            line-height: 15px;
+            display: flex;
+            align-items: center;
+            color: #FFFFFF;
+            
+        }
+
+    }
+    
+    &__divider{
+        width: 100%;
+        height: 1px;
+        margin-top: 13px;
+        background-color: #000;
+    }
+    &__item{
+        display: flex;
+        justify-content: space-between;
+        padding: 11px 97px 0 97px;
+        align-items: center;
+    }
+    &__subheader{
+        position: absolute;
+        padding-top: 50px;
+        width: 100%;
+        height: 84px;
+        background: rgba(0, 0, 0, .6)
+    }
+    &__items{
+        &-descr{
+            font-weight: 100;
+            font-size: 13px;
+            display: flex;
+            align-items: center;
+            color: #FFFFFF;
         }
     }
-    &__official{
-        font-weight: 500;
-        font-size: 21px;
-        line-height: 13px;
-        text-align: center;
-        color: #FFFFFF;
-        span{
-            display: block;
-            font-size: 21px;
-            margin-top: 7px;
-        }
+    
+    &__elem{
+        display: flex;
     }
     &__phone{
-        display: block;
-        left: 8px;
-        font-weight: bold;
-        font-size: 21px;
-        line-height: 18px;
-        color: #FFFFFF;      
+        margin-right: 15px;
+        &-descr{
+            display: block;
+            margin-left: 19px;
+            font-weight: 300;
+            font-size: 12px;
+            line-height: 14px;
+
+            color: #FFFFFF;
+                    
+        }
+        &-tel{
+            font-size: 22px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
     }
-    &__contacts{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-    }
+    
+    
+
 }

@@ -1,0 +1,91 @@
+.mobile{
+    padding: 48px 0 50px 0;
+    background: url('../../img/mobile_bg.jpg') no-repeat 100%/cover;
+    &__title{
+        display: flex;
+        justify-content: center;
+        margin-top: 32px;
+    }
+    &__descr{
+        display: flex;
+        justify-content: center;
+        font-size: 17px;
+        line-height: 21px;
+        color: #222222;
+    }
+    &__wrapper{
+        margin-top: 30px;
+        position: relative;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(auto-fit, 320px);
+        grid-template-rows: repeat(auto-fit, 280px);
+        row-gap: 19px;
+        column-gap: 67px;
+    }
+    &__card{
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        &-1{
+            background: url('../../img/Карточка\ 1.jpg')no-repeat;
+        }
+        &-2{
+            background: url('../../img/Карточка\ 2.jpg')no-repeat;
+        }
+        &-3{
+            background: url('../../img/Карточка\ 3.jpg')no-repeat;
+        }
+        &-4{
+            background: url('../../img/Карточка\ 4.jpg')no-repeat;
+        }
+        &-5{
+            background: url('../../img/Карточка\ 5.jpg')no-repeat;
+        }
+        &-6{
+            background: url('../../img/Карточка\ 6.jpg')no-repeat;
+        }
+    }
+    &__text{
+        position: relative;
+        margin-top: 82px;
+        text-align: center;
+        font-size: 24px;
+        line-height: 31px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+    &__pulse{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 97px auto 35px auto;
+        width: 26px;
+        height: 26px;
+        border-radius: 100%;
+        background: #000000;
+        cursor: pointer;
+        &-1{
+            margin-top: 65px;
+        }
+        &-6{
+            margin-top: 65px;
+        }
+        @include beforepuls;
+    }
+    &__subtitle{
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 115px;
+        height: 27px;
+        background: #000000;
+        font-size: 11px;
+        line-height: 11px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+    }
+
+}
